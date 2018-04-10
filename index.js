@@ -8,5 +8,5 @@ function nestedTarget() {
 
 function increaseRankBy(n) {
   let rankedListItems = document.querySelectorAll('.ranked-list li');
-  rankedListItems.forEach(el => el.innerText+=n);
+  rankedListItems.forEach(el => el.innerText+4);
 }
